@@ -1,0 +1,77 @@
+# OS
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / Next.js
+
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+build/
+.env*
+!.env.example
+*.tsbuildinfo
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+
+# Monorepo / Cache
+
+.turbo/
+.cache/
+
+# Data (generated)
+
+data/index/
+data/cache/
+data/meta/stats.json
+
+# Upload temp
+
+uploads/
+tmp/
+temp/
+
+# Testing
+
+coverage/
+.nyc_output/
+
+# Misc
+
+*.lock
+*.tmp
+*.bak
+*.old
+
+
+PLAN.md
